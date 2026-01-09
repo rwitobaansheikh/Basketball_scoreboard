@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score_card h3 {
+    color: #EEEEEE;
+    font-family: Verdana;
+    font-style: bold;
+    text-align: center;
+    margin-bottom: 8%;
+    font-size:250%;
+}
+
+.score {
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    color: #F94F6D;
+    text-align: center;
+    line-height: 126.67px;
+    font-size: 90px;
+    border-radius: 5px;
+    font-family: "Cursed Timer ULiL", sans-serif;
+    margin-bottom: 10%;
+}
+.buttons {
+    display: flex;
+    justify-content:space-between;
+}
+
+.increment_buttons {
+    background-color: #1B244A;
+    font-family: "Cursed Timer ULiL", sans-serif;
+    padding: 4%;
+    border: 2px solid #9AABD8;
+    border-radius: 5px; 
+    color: #9AABD8;
+}
+
+.increment_buttons:hover {
+    border: 2px dashed #EEEEEE;
+}
+
+#game {
+    margin-top: 3%;   
+}
